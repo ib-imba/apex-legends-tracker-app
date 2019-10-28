@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+node_modules/
+/dist/
+*.log
+*.todo
+.vscode/launch.json
+package-lock.json
+/package-lock.json
