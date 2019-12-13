@@ -1,7 +1,7 @@
 <template>
   <header>
     <img :src="image" alt="logo">
-    <div class="perfil">Use this Gamertag:<h3>Zednim</h3></div>
+    <div class="perfil">Use this Gamertag: <h3>Zednim</h3></div>
   </header>
 </template>
 
