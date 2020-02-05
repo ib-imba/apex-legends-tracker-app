@@ -2,17 +2,20 @@
   <div id="app" class="container">
     <Header />
     <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/Header';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Header
+    Header,
+    Footer
   }
-}
+};
 </script>
 
 <style>
@@ -28,7 +31,7 @@ body {
   background: var(--primary-color);
   color: #fff;
   line-height: 1.6;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
