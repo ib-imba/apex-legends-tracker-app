@@ -20,3 +20,6 @@ npm run dev
 cd client - 
 npm run build
 # Gets put in /public
+
+# Live
+https://bit.ly/38y5oD4
